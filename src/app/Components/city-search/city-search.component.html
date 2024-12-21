@@ -1,0 +1,5 @@
+<div class="city-search">
+    <input type="text" [(ngModel)]="cityId" (input)="searchCityById()" placeholder="Search By City ID">
+    <input type="text" [(ngModel)]="cityName" (input)="searchCityByName()" placeholder="Search By City Name">
+    <input type="date" [(ngModel)]="date" (change)="searchCityByDate($event)">
+</div>

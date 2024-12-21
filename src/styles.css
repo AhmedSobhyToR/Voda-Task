@@ -11,3 +11,8 @@
 html{
     scrollbar-width: thin;
 }
+
+.error{
+    font-size: 1.5rem;
+    color: rgb(199, 11, 11);
+}

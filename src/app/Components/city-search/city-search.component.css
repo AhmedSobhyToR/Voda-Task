@@ -1,0 +1,30 @@
+.city-search{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.8rem;
+    margin: auto;
+}
+.city-search input[type='text']{
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding-left: 0.7rem;
+    font-size: 1.3rem;
+}
+
+.city-search input[type='date']{
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding-left: 0.7rem;
+    font-size: 1.3rem;
+}
+.city-search img{
+    width: 30px;
+    cursor: pointer;
+}

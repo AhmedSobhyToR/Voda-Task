@@ -1,0 +1,15 @@
+<div class="city-list">
+    <app-unit-toggle (toggle)="onToggle($event)"></app-unit-toggle>
+    @if (errorMessage) {
+        <p class="error">{{errorMessage}}</p>
+    }
+    @else {
+        <div class="cities">
+            @for (city of filteredCities; track $index) {
+                <app-city [cityData]="city" [unitTemperature]="unitTemperature"></app-city>
+            }
+        </div>
+
+    }
+
+</div>

@@ -1,0 +1,13 @@
+.city-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.city-list
+ .cities{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

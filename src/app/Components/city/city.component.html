@@ -1,0 +1,34 @@
+<div class="city">
+    <div class="city-header">
+        <h2>{{cityData.city}}</h2>
+    </div>
+
+    <div class="forecast">
+        @if (cityData.forecast.length>0) {
+            @for (forecast of cityData.forecast; track $index) {
+                <div class="city-forecast">
+                    <div class="forecast-elements">
+                        <div>
+                            <div class="forecast-element">
+                                <img src="/assets/images/temperature.svg" alt="temperature">
+                                <p>Temperature<span>{{unitTemperature? forecast.temperatureCelsius 
+                                : forecast.temperatureFahrenheit}}</span></p>
+                            </div>
+                        </div>
+                        <div class="forecast-element">
+                            <img src="/assets/images/humadity.svg" alt="humadity">
+                            <p>Humidity<span>{{forecast.humidity}}%</span></p>
+                        </div>
+                    </div>
+
+                    <p class="forecast-date">{{forecast.date}}</p>
+                </div>
+            }
+        }
+        @else {
+            <p class="error">Weather forecast isn't available for this date.
+                Please set range between {{startDate}} and {{endDate}}
+            </p>
+        }
+    </div>
+</div>
