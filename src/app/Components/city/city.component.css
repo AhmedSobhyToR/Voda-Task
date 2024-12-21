@@ -11,12 +11,12 @@
 
 .city h2{
     color: rgb(21, 0, 128);
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .city p,
 .city-header input{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .city-header{
@@ -46,7 +46,7 @@
 }
 
 .forecast-element img{
-    width: 25px;
+    width: 20px;
 }
 
 .forecast-element p{
