@@ -56,7 +56,6 @@ export class CitySearchService {
     }
 
     this.searchedCity$.next(true);
-
   }
 
   searchCityByDate(date: Date | string){
@@ -69,7 +68,6 @@ export class CitySearchService {
         }
       })
     }
-    
 
     this.searchedCity$.next(true);
   }

@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
+import {  Component, OnInit } from '@angular/core';
 import { City } from '../../Models/city';
 import { CityComponent } from "../city/city.component";
 import { CitySearchService } from '../../Services/city-search.service';

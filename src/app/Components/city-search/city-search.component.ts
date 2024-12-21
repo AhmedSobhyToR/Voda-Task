@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
-import { CityForecastService } from '../../Services/city-forecast.service';
-import { City } from '../../Models/city';
 import { CitySearchService } from '../../Services/city-search.service';
-import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 @Component({
